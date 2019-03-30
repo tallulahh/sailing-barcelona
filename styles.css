@@ -1,0 +1,459 @@
+body {
+  text-align: center;
+}
+
+/* Sections  */
+nav.navbar {
+  margin-bottom: 0;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.imageBannerContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.sectionContainer {
+  padding: 2.5% 10%;
+}
+
+.whiteSection {
+  background-color: white;
+  color: #1b335f;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.colouredSection {
+  background-color: #207dff;
+  color: #1b335f;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.darkSection {
+  background-color: #207dff;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.iconBar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.social-icon {
+  color: #1b335f;
+}
+
+.social-icon:hover {
+  color: white;
+}
+
+.footerBar {
+  padding: 30px 0 30px 0;
+}
+
+#footLink {
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+}
+
+#footLink:hover {
+  text-decoration: none;
+  color: #1b335f;
+}
+
+/* TITLES AND PARAS */
+#homeTitle {
+  max-width: 750px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1;
+  padding: 5px;
+  background: rgb(0, 0, 0);
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+h6#homeTitleSmall {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 1;
+  background: rgb(0, 0, 0);
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+div .sectionTitle {
+  font-weight: 800;
+}
+
+div .smallTitle {
+  padding: 20px 90px 20px 90px;
+  font-weight: 800;
+}
+
+div .para {
+  font-size: 1.6rem;
+  padding: 20px 100px 20px 100px;
+}
+
+div .aboutMorePara {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-style: italic;
+  margin: 10px 100px 0px;
+  padding: 20px 100px 30px 100px;
+}
+
+.iconTitle {
+  font-weight: 800;
+}
+
+.icon {
+  color: #1b335f;
+  margin-bottom: 1rem;
+  -webkit-transition-duration: 0.2s;
+  /* Safari */
+  transition-duration: 0.2s;
+}
+
+.icon:hover {
+  color: #207dff;
+}
+
+.extra-padding {
+  padding-bottom: 30px;
+}
+
+#banner {
+  width: 100%;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+/* HOME PAGE */
+.button {
+  background-color: #207dff;
+  color: black;
+  margin: 5% 3% 5% 0;
+  -webkit-transition-duration: 0.2s;
+  /* Safari */
+  transition-duration: 0.2s;
+}
+
+#bookButton {
+  text-decoration: none;
+  color: black;
+}
+
+#bookButton:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* Testimonials Section  */
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+  padding: 15%;
+}
+
+/* More Section  */
+.more-box {
+  padding: 4.5%;
+}
+
+/* BOOK A TRIP PAGE */
+.calendar-body {
+  position: relative;
+  left: 150px;
+  width: 800px;
+  height: 500px;
+  background-color: white;
+}
+
+.calendar-left {
+  background-color: #207dff;
+  float: left;
+  margin: 0;
+  padding: 0px 20px;
+}
+
+.calendar-right {
+  margin-left: 150px;
+  padding: 0;
+}
+
+#big-date {
+  font-size: 10rem;
+  color: white;
+  font-weight: 800;
+}
+
+#big-day {
+  font-size: 3.3rem;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: 800;
+}
+
+.calendar-select {
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.month {
+  padding: 30px 25px;
+  width: 100%;
+  background-color: #ddd;
+  text-align: center;
+}
+
+.month li{
+  font-weight: 800;
+}
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0 0 0;
+  background: #eee;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 11%;
+  color: #666;
+  font-weight: 800;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 24px 0 0 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 11%;
+  text-align: center;
+  margin-bottom: 25px;
+  padding-top: 10px;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important;
+  font-weight: 800;
+}
+
+.cart-button {
+  margin: 20px 0;
+  padding: 5px;
+  background-color: #207dff;
+  color: white;
+  font-weight: 800;
+}
+.
+
+/* ABOUT US PAGE */
+#daveImg {
+  width: 400px;
+}
+
+#skipperImage {
+  padding: 50px 50px 50px 20px;
+}
+
+h6.testimonialAuthor {
+  padding-left: 50px;
+  width: 430px;
+}
+
+#skipperTestimonials {
+  padding: 50px 20px 50px 80px;
+}
+
+p#skipperTestimonials {
+  padding: 10px 0px;
+}
+
+div.col-lg-3 {
+  padding-top: 30px;
+}
+
+/* OTHER SECTION */
+li {
+  padding: 0px 30px 10px 10px;
+}
+
+/* BLOG SECTION */
+.blog {
+  font-family: 'Playfair Display', serif;
+  /* background-color: #207dff; */
+  /* color: white; */
+}
+
+.blog-post {
+  padding: 20px 70px;
+}
+
+.blog-title {
+  font-size: 5rem;
+}
+
+.blog-sub {
+  font-size: 3rem;
+}
+
+.card-body {
+  background-color: #207dff;
+  color: white;
+  padding: 20px 20px;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+.card-subtitle {
+  color: #1b335f;
+}
+
+.row-card {
+  padding: 20px 50px;
+}
+
+.card-link {
+  color: #1b335f;
+}
+
+.card-link:hover {
+  color: white;
+}
+
+/* ASSOCIATION SECTION */
+#associationText li {
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+/* BOATS SECTION */
+#rivalInfoPara {
+  padding: 20px 50px 20px 0;
+  font-size: 1.7rem;
+}
+
+#rivalImg {
+  padding: 15px 60px 10px 30px;
+}
+
+/* CONTACT PAGE */
+form {
+  padding: 30px 100px 50px 100px;
+}
+
+input#fname, #lname, #email, #message {
+  width: 500px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+textarea {
+  width: 500px;
+}
+
+#address {
+  padding-top: 90px;
+  font-weight: 800;
+}
+
+#map {
+  width: 100%;
+  height: 300px;
+  background-color: grey;
+}
+
+/* TESTIMONIALS PAGE */
+.testimonialPara {
+  font-size: 1.4rem;
+  padding: 0 20px 0px 20px;
+}
+
+.testimonialAuthor {
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-style: italic;
+  padding-bottom: 30px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+div.column {
+  padding-bottom: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Positions */
+.centered {
+  position: absolute;
+  max-width: 800px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left {
+  text-align: left;
+}
