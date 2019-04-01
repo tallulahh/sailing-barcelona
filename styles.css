@@ -22,19 +22,21 @@ nav.navbar {
 
 .whiteSection {
   background-color: white;
-  color: #1b335f;
+  color: #3c415e;
   margin-top: 0;
   font-family: 'Montserrat', sans-serif;
 }
 
 .colouredSection {
-  background-color: #207dff;
-  color: #1b335f;
+  background-color: #1cb3c8;
+  /* color: #1b335f; */
+  color: white;
+  font-weight: 800;
   font-family: 'Montserrat', sans-serif;
 }
 
 .darkSection {
-  background-color: #207dff;
+  background-color: #1cb3c8;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
@@ -64,7 +66,7 @@ nav.navbar {
 
 #footLink:hover {
   text-decoration: none;
-  color: #1b335f;
+  color: #3c415e;
 }
 
 /* TITLES AND PARAS */
@@ -117,10 +119,13 @@ div .aboutMorePara {
 
 .iconTitle {
   font-weight: 800;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: #3c415e;
 }
 
 .icon {
-  color: #1b335f;
+  color: #3c415e;
   margin-bottom: 1rem;
   -webkit-transition-duration: 0.2s;
   /* Safari */
@@ -128,7 +133,7 @@ div .aboutMorePara {
 }
 
 .icon:hover {
-  color: #207dff;
+  color: #1cb3c8;
 }
 
 .extra-padding {
@@ -147,8 +152,8 @@ div .aboutMorePara {
 
 /* HOME PAGE */
 .button {
-  background-color: #207dff;
-  color: black;
+  background-color: #1cb3c8;
+  color: white;
   margin: 5% 3% 5% 0;
   -webkit-transition-duration: 0.2s;
   /* Safari */
@@ -157,12 +162,12 @@ div .aboutMorePara {
 
 #bookButton {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #bookButton:hover {
   text-decoration: none;
-  color: white;
+  color: #3c415e;
 }
 
 /* Testimonials Section  */
@@ -188,7 +193,7 @@ div .aboutMorePara {
 }
 
 .calendar-left {
-  background-color: #207dff;
+  background-color: #1cb3c8;
   float: left;
   margin: 0;
   padding: 0px 20px;
@@ -228,9 +233,10 @@ ul {
   text-align: center;
 }
 
-.month li{
+.month li {
   font-weight: 800;
 }
+
 .month .prev {
   float: left;
   padding-top: 10px;
@@ -286,11 +292,98 @@ ul {
 .cart-button {
   margin: 20px 0;
   padding: 5px;
-  background-color: #207dff;
+  background-color: #1cb3c8;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.cart-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.cart-button a:hover {
+  text-decoration: none;
+  color: #3c415e;
+}
+
+/* CHECKOUT PAGE */
+.pay-box {
+  text-align: center;
+  background-color: #3c415e;
   color: white;
   font-weight: 800;
+  width: 900px;
+  height: 600px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-left: -450px;
+  padding: 20px 40px 0;
 }
-.
+
+.card-details {
+  margin: 40px 0 10px 80px;
+}
+
+.card-details input[type=text] {
+  background: transparent;
+  border: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+}
+
+.pay-icon {
+  color: #1cb3c8;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pay-icon:hover {
+  color: white;
+}
+
+label {
+  margin: 5px 0 0 0;
+  padding: 5px 0 0 0;
+}
+
+.pinput input {
+  margin: 20px 10px;
+}
+
+.contact-details {
+  width: 900px;
+  height: 600px;
+  position: relative;
+  left: 90px;
+  background-color: #3c415e;
+  color: white;
+  padding: 30px 50px;
+  margin-top: 40px;
+}
+
+.contact-details input[type=text] {
+  color: #3c415e;
+  width: 400px;
+  text-align: center;
+}
+
+/* CONFIRMATION PAGE */
+.confirm-check {
+  margin: 50px 0;
+  color: #3c415e;
+}
 
 /* ABOUT US PAGE */
 #daveImg {
@@ -326,7 +419,7 @@ li {
 /* BLOG SECTION */
 .blog {
   font-family: 'Playfair Display', serif;
-  /* background-color: #207dff; */
+  /* background-color: #1cb3c8; */
   /* color: white; */
 }
 
@@ -343,7 +436,7 @@ li {
 }
 
 .card-body {
-  background-color: #207dff;
+  background-color: #1cb3c8;
   color: white;
   padding: 20px 20px;
 }
@@ -385,18 +478,32 @@ li {
 }
 
 /* CONTACT PAGE */
-form {
-  padding: 30px 100px 50px 100px;
+.contact-form {
+
+  padding: 30px 100px 50px 80px;
 }
 
-input#fname, #lname, #email, #message {
+.contact-form input#fname, #lname, #email, #message {
   width: 500px;
   padding-left: 5px;
   padding-right: 5px;
+  color: #3c415e;
+  text-align: center;
 }
 
 textarea {
   width: 500px;
+}
+
+#submit-contact {
+  margin-top: 10px;
+  background-color: #738598;
+  color: #3c415e;
+  font-weight: 800;
+}
+
+#submit-contact:hover {
+  color: white;
 }
 
 #address {
