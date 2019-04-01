@@ -483,7 +483,9 @@ li {
   padding: 30px 100px 50px 80px;
 }
 
-.contact-form input#fname, #lname, #email, #message {
+
+.contact-form input[type=text]{
+  color: #3c415e;
   width: 500px;
   padding-left: 5px;
   padding-right: 5px;
@@ -491,8 +493,10 @@ li {
   text-align: center;
 }
 
-textarea {
+.contact-form textarea {
   width: 500px;
+  color: #3c415e;
+  text-align: center;
 }
 
 #submit-contact {
