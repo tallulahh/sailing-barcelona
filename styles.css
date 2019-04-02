@@ -1,13 +1,35 @@
 body {
   text-align: center;
 }
+#logo {
+  height: 100px;
+  margin-left: -20px;
+}
 
 /* Sections  */
 nav.navbar {
+  padding-bottom: 20px;
   margin-bottom: 0;
-  background-color: white;
+  background-color: #f2f4fb;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
+}
+
+.navbar-header{
+  width: 250px;
+  height: auto;
+}
+p.navbar-brand{
+  font-size: 2.5rem;
+  margin-left: 0;
+}
+.navbar ul {
+  margin: 0;
+  padding-top: 70px;
+}
+
+.navbar li {
+  font-size: 1.8rem;
 }
 
 .imageBannerContainer {
@@ -21,7 +43,7 @@ nav.navbar {
 }
 
 .whiteSection {
-  background-color: white;
+  background-color: #f2f4fb;
   color: #3c415e;
   margin-top: 0;
   font-family: 'Montserrat', sans-serif;
@@ -83,9 +105,10 @@ nav.navbar {
   padding: 10px;
 }
 
-h6#homeTitleSmall {
+h2#homeTitleSmall {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
+  font-size: 2rem;
   font-style: italic;
   line-height: 1;
   background: rgb(0, 0, 0);
@@ -125,7 +148,7 @@ div .aboutMorePara {
 }
 
 .icon {
-  color: #3c415e;
+  color: #1cb3c8;
   margin-bottom: 1rem;
   -webkit-transition-duration: 0.2s;
   /* Safari */
@@ -133,7 +156,7 @@ div .aboutMorePara {
 }
 
 .icon:hover {
-  color: #1cb3c8;
+  color: #f57665;
 }
 
 .extra-padding {
@@ -152,8 +175,7 @@ div .aboutMorePara {
 
 /* HOME PAGE */
 .button {
-  background-color: #1cb3c8;
-  color: white;
+  background-color: #f57665;
   margin: 5% 3% 5% 0;
   -webkit-transition-duration: 0.2s;
   /* Safari */
@@ -162,12 +184,13 @@ div .aboutMorePara {
 
 #bookButton {
   text-decoration: none;
-  color: white;
+  color: #3c415e;
 }
 
 #bookButton:hover {
   text-decoration: none;
-  color: #3c415e;
+  color: #f2f4fb;
+
 }
 
 /* Testimonials Section  */
@@ -176,6 +199,8 @@ div .aboutMorePara {
   font-weight: 800;
   line-height: 1.5;
   padding: 15%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* More Section  */
@@ -190,6 +215,7 @@ div .aboutMorePara {
   width: 800px;
   height: 500px;
   background-color: white;
+  margin-bottom: 20px;
 }
 
 .calendar-left {
@@ -289,23 +315,6 @@ ul {
   font-weight: 800;
 }
 
-.cart-button {
-  margin: 20px 0;
-  padding: 5px;
-  background-color: #1cb3c8;
-  font-weight: 800;
-  text-decoration: none;
-}
-
-.cart-button a {
-  text-decoration: none;
-  color: white;
-}
-
-.cart-button a:hover {
-  text-decoration: none;
-  color: #3c415e;
-}
 
 /* CHECKOUT PAGE */
 .pay-box {
@@ -394,7 +403,8 @@ label {
   padding: 50px 50px 50px 20px;
 }
 
-h6.testimonialAuthor {
+h2.testimonialAuthor {
+
   padding-left: 50px;
   width: 430px;
 }
@@ -480,7 +490,7 @@ li {
 /* CONTACT PAGE */
 .contact-form {
 
-  padding: 30px 100px 50px 80px;
+  padding: 30px 80px 30px 80px;
 }
 
 
@@ -499,14 +509,21 @@ li {
   text-align: center;
 }
 
-#submit-contact {
+#submit {
+  text-decoration: none;
   margin-top: 10px;
-  background-color: #738598;
-  color: #3c415e;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #f57665;
   font-weight: 800;
 }
 
-#submit-contact:hover {
+#submit a {
+  color: #3c415e;
+}
+
+#submit a:hover {
+  text-decoration: none;
   color: white;
 }
 
