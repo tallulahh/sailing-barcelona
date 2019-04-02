@@ -176,7 +176,7 @@ div .aboutMorePara {
 /* HOME PAGE */
 .button {
   background-color: #f57665;
-  margin: 5% 3% 5% 0;
+  margin: 20px 0;
   -webkit-transition-duration: 0.2s;
   /* Safari */
   transition-duration: 0.2s;
