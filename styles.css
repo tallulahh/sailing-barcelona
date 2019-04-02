@@ -395,6 +395,15 @@ label {
 }
 
 /* ABOUT US PAGE */
+
+.TA_certificateOfExcellence {
+  margin-left: 450px;
+}
+
+.TA_selfserveprop{
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
 #daveImg {
   width: 400px;
 }
