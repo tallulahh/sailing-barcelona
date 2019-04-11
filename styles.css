@@ -195,14 +195,21 @@ div .aboutMorePara {
 
 /* Testimonials Section  */
 .testimonial-text {
+  text-align: left;
   font-size: 3rem;
   font-weight: 800;
   line-height: 1.5;
-  padding: 15%;
+  padding: 15% 15% 0;
   margin-top: 0;
   margin-bottom: 0;
 }
-
+.testimonial-author {
+  font-style: italic;
+  text-align: right;
+  margin-top: 10px;
+  padding-bottom: 15%;
+  padding-right: 15%;
+}
 /* More Section  */
 .more-box {
   padding: 4.5%;
