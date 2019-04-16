@@ -10,6 +10,7 @@ body {
 nav.navbar {
   padding-bottom: 20px;
   margin-bottom: 0;
+  overflow: hidden;
   background-color: #f2f4fb;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
@@ -31,6 +32,7 @@ p.navbar-brand{
 .navbar li {
   font-size: 1.8rem;
 }
+
 
 .imageBannerContainer {
   position: relative;
@@ -403,11 +405,15 @@ label {
 
 /* ABOUT US PAGE */
 
-.TA_certificateOfExcellence {
-  margin-left: 450px;
+#TA_certificateOfExcellence826 {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  padding-top: 20px;
+
 }
 
-.TA_selfserveprop{
+#TA_selfserveprop603{
   margin-bottom: 30px;
   margin-left: 20px;
 }
@@ -583,10 +589,20 @@ div.column {
   clear: both;
 }
 
+
+@media screen and (max-width: 992px) {
+
+}
+
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
+  /* .nav li {
+    width: 100%;
+    text-align: center;
+  } */
 }
 
 /* Positions */
