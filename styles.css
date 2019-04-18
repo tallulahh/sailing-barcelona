@@ -163,7 +163,7 @@ text-decoration: none;
 
 /* TITLES AND PARAS */
 #homeTitle {
-  width: 800px;
+  max-width: 800px;
   font-family: 'Montserrat', sans-serif;
   font-size: 5rem;
   font-weight: 800;
