@@ -15,26 +15,50 @@
 <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
-<nav class="navbar navbar-default">
-  <div class="container">
+  <nav class="navbar navbar-default">
+    <div class="container">
 
-    <div class="navbar-header">
-      <!-- <img src="images/compass2.jpg" class="navLogo" alt=""> -->
-      <a href="home.html">
-        <img src="images/logo.png" id="logo" class="navLogo" alt="">
-        <p class="navbar-brand">SAILING BARCELONA</p>
-      </a>
+      <div class="navbar-header">
+
+        <a href="home.html">
+          <img src="images/logo.png" id="logo" class="navLogo" alt="">
+          <p class="navbar-brand">SAILING BARCELONA</p>
+        </a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <!-- 6 -->
+        <li id="home"><a href="#title">HOME</a></li>
+        <li id="about"><a href="about.html">ABOUT US</a></li>
+        <li id="bookTrip"><a href="book.html">BOOK A SAILING TRIP</a></li>
+        <li id="contact"><a href="contact.html">CONTACT US</a></li>
+      </ul>
+      <span class="open-slide">
+        <a href="#" class="burger" onclick="openSlideMenu()">
+          <i class="fa fa-bars fa-2x"></i>
+        </a>
+  </span>
+
+
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="home.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="book.html">BOOK A SAILING TRIP</a>
+        <a href="contact.html">CONTACT US</a>
+
     </div>
-    <ul class="nav navbar-nav navbar-right">
-      <!-- 6 -->
-      <li id="home"><a href="home.html">HOME</a></li>
-      <li id="about"><a href="about.html">ABOUT US</a></li>
-      <li id="bookTrip"><a href="book.html">BOOK A SAILING TRIP</a></li>
-      <li id="contact"><a href="contact.html">CONTACT US</a></li>
-    </ul>
-  </div>
-</nav>
+    <script>
+      function openSlideMenu(){
+        document.getElementById("side-menu").style.width = "250px";
+      }
 
+      function closeSlideMenu(){
+        document.getElementById("side-menu").style.width = "0";
+      }
+    </script>
+  </div>
+  </nav>
 <body>
   <section class="imageBannerSection">
     <div class="imageBannerContainer">
@@ -316,22 +340,22 @@
     </div>
     <div class="footerBar">
       <div class="row">
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-xs-2">
           <a href="book.html" id="footLink">BOOK A TRIP</a>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-xs-2">
           <a href="about.html" id="footLink">ABOUT US</a>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-xs-2">
           <a href="other.html" id="footLink">MORE SAILING</a>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-xs-2">
           <a href="faqs.html" id="footLink">FAQS</a>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-xs-2">
           <a href="termsconditions.html" id="footLink">OUR TERMS</a>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-xs-2">
           <a href="privacypolicy.html" id="footLink">PRIVACY POLICY</a>
         </div>
       </div>

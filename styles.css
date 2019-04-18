@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  width: 100%;
 }
 #logo {
   height: 100px;
@@ -33,6 +34,66 @@ p.navbar-brand{
   font-size: 1.8rem;
 }
 
+.navbar .burger {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  padding-top: 40px;
+  padding-right: 20px;
+  display: none;
+  color: #1b335f;
+}
+
+
+@media (max-width: 1200px) {
+  .navbar .burger {
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+}
+
+.side-nav {
+  height: 100%;
+  width: 0;
+  display: block;
+  text-decoration: none;
+  float: right;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.side-nav a{
+  padding: 20px 10px 20px 30px;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav a:hover{
+text-decoration: none;
+
+}
+
+
+.side-nav .btn-close{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 55px;
+
+}
 
 .imageBannerContainer {
   position: relative;
@@ -45,6 +106,7 @@ p.navbar-brand{
 }
 
 .whiteSection {
+
   background-color: #f2f4fb;
   color: #3c415e;
   margin-top: 0;
@@ -52,6 +114,7 @@ p.navbar-brand{
 }
 
 .colouredSection {
+  /* background-image: linear-gradient(to top, #1cb3c8 0%, #cfd9df 100%);   */
   background-color: #1cb3c8;
   /* color: #1b335f; */
   color: white;
@@ -68,6 +131,10 @@ p.navbar-brand{
 .iconBar {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.iconBar a:not(#envelope) {
+  padding-right: 20px;
 }
 
 .social-icon {
@@ -220,11 +287,12 @@ div .aboutMorePara {
 /* BOOK A TRIP PAGE */
 .calendar-body {
   position: relative;
-  left: 150px;
-  width: 800px;
+
+  width: 700px;
   height: 500px;
+  margin: 0 auto 20px;
   background-color: white;
-  margin-bottom: 20px;
+
 }
 
 .calendar-left {
@@ -238,7 +306,6 @@ div .aboutMorePara {
   margin-left: 150px;
   padding: 0;
 }
-
 #big-date {
   font-size: 10rem;
   color: white;
@@ -351,6 +418,7 @@ ul {
   margin-top: 10px;
 }
 
+
 .col-25 {
   float: left;
   width: 25%;
@@ -384,11 +452,13 @@ label {
   width: 900px;
   height: 600px;
   position: relative;
-  left: 90px;
+  top: 50%x;
+  left: 50%;
   background-color: #3c415e;
   color: white;
-  padding: 30px 50px;
+  padding: 30px 0;
   margin-top: 40px;
+  margin-left: -450px;
 }
 
 .contact-details input[type=text] {
@@ -511,7 +581,6 @@ li {
 
 /* CONTACT PAGE */
 .contact-form {
-
   padding: 30px 80px 30px 80px;
 }
 
@@ -590,12 +659,7 @@ div.column {
 }
 
 
-@media screen and (max-width: 992px) {
-
-}
-
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 586px) {
   .column {
     width: 100%;
   }
